@@ -1,0 +1,55 @@
+/*  
+    Author: Shelby Dunn
+    Date: 10/24/19
+    Purpose: Styles the Test Tracker Login Screen
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body {
+    background-color: rgb(111, 225, 233);
+}
+
+section {
+    width: 90vw;
+    height: 80vh;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    text-align: left;
+    box-shadow: 20px 40px 50px rgb(71, 70, 70);
+}
+
+div {
+    display: inline-block;
+    margin-top: 0;
+}
+
+div.logoPhrase {
+    background-color: rgb(59, 57, 57);
+    width: 30%;
+    height: 100%;
+    margin-left: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(59, 57, 57);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+div.form {
+    background-color: rgb(206, 199, 190);
+    height: 100%;
+    width: 70%;
+    margin-left: 0%;
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(206, 199, 190);
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    
+}
