@@ -9,15 +9,34 @@
     <head>
         <meta charset="UTF-8">
         <title>TestTracker Login</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../CSSscripts/LoginStyle.css">
     </head>
 
     <body>
         <section>
             <div class="logoPhrase">
-                <img>
             </div>
-            <div class="form">Login Form</div>
+            <div class="form">
+                <form>
+                    <fieldset>
+                        <legend>Log into TestTracker</legend>
+                        <p>Enter your login credentials below.</p>
+
+                        <p class="entries email">
+                            <label for="email">Email</label><br/>
+                            <input type="email" name="email" id= "email" placeholder="Enter email address"/>
+                        </p>
+
+                        <p class="entries password">
+                            <label for="password">Password</label><br/>
+                            <input type="password" name="password" id= "password" placeholder="Enter password"/>
+                        </p>
+
+                        <input type="submit" value="Login"/>
+                    </fieldset>
+                </form>
+            </div>
         </section>
 
     </body>
