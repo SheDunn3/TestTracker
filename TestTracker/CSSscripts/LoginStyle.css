@@ -8,10 +8,11 @@
     margin: 0;
     padding: 0;
     position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: rgb(111, 225, 233);
+    background-color: rgb(148, 161, 167);
 }
 
 section {
@@ -20,7 +21,7 @@ section {
     margin-left: 5vw;
     margin-top: 10vh;
     text-align: left;
-    box-shadow: 20px 40px 50px rgb(71, 70, 70);
+    box-shadow: 20px 40px 50px rgb(48, 47, 47);
 }
 
 div {
@@ -30,26 +31,71 @@ div {
 
 div.logoPhrase {
     background-color: rgb(59, 57, 57);
+    background-image: url("../images/upstairs.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     width: 30%;
     height: 100%;
     margin-left: 0;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: rgb(59, 57, 57);
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
 }
 
 div.form {
-    background-color: rgb(206, 199, 190);
+    background-color: rgb(241, 241, 241);
     height: 100%;
     width: 70%;
     margin-left: 0%;
     position: absolute;
     border-style: solid;
-    border-width: 2px;
-    border-color: rgb(206, 199, 190);
+    border-width: 1px;
+    border-color:  rgb(241, 241, 241);
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
-    
+}
+
+form {
+    margin-left: 15%;
+    margin-top: 10%;
+    border-style: none;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+fieldset {
+    border-style: none;
+    margin: 0 auto;
+}
+
+legend {
+    font-weight: bolder;
+    font-size: 2em;
+    padding-bottom: .5em;
+}
+label {
+    font-weight: bold;
+}
+p.entries {
+    padding-top: 1.5em;
+}
+
+input {
+    width: 80%;
+    height: 2em;
+}
+
+input[type=submit] {
+    margin-left: 6em;
+    margin-top: 1.5em;
+    margin-bottom: 10%;
+    width: 10em;
+    background-color: rgb(49, 46, 46);
+    color: rgb(236, 231, 231);
+    font-weight: bold;
+    border-style: inset;
+    border-width: 3px;
+    border-color:  rgb(148, 161, 167);
 }
