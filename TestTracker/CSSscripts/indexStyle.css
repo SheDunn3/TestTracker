@@ -1,0 +1,107 @@
+/*  
+    Author: Shelby Dunn
+    Date: 10/25/19
+    Purpose: Styles the Test Tracker home Screen
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    position: relative;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+header {
+    width: 100%;
+    height: 6em;
+    background-color: rgb(43, 42, 42);
+    color: rgb(243, 237, 237);
+}
+
+h3{
+    font-size: 2em;
+    color: rgb(43, 42, 42);
+    margin-left: .2em;
+}
+
+li{
+    display: inline-block;
+    margin: .5em;
+}
+
+li.maintab{
+    margin: .1em;
+}
+
+ul{
+    margin-right: 1em;
+}
+
+section.topBar{
+    height: 2em;
+    text-align: right;
+}
+section.mainNav{
+    background-color: rgb(148, 161, 167);
+    height: 5em;
+}
+
+div{
+    background-color: rgb(43, 42, 42);
+    padding: .2em;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: rgb(43, 42, 42);
+}
+
+section.commonArea{
+    background-color: red;
+    height: 53em;
+    
+}
+section.MainContent, section.sidebar{
+    display: inline-block;
+    height: 100%;
+}
+
+section.sidebar{
+    background-color: rgb(116, 105, 105);
+    width: 20%;
+    float: right;
+}
+section.MainContent {
+    background-color: white;
+    width: 80%;
+}
+
+section.ribbon{
+    background-color: rgb(243, 237, 237);
+    height: 3em;
+}
+
+article.Graphs, article.RecentActivities{
+    height: 25em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(116, 105, 105);
+}
+
+footer {
+    text-align: center;
+    height:2em;
+    padding-top: .5em;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(43, 42, 42);
+    color: rgb(245, 241, 241);
+    position: fixed;
+}
